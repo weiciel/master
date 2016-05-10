@@ -1,4 +1,7 @@
+# set working directory
 setwd("/Users/JackyHuang/Desktop/paper/newclimate/cmip5/")
+
+# load required libraries
 library(raster)
 library(rgdal)
 files = list.files(, pattern = "tif$", full.names = TRUE, recursive = TRUE)
